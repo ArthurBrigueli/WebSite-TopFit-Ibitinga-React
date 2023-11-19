@@ -1,0 +1,51 @@
+.container_gympass{
+    background-color: rgb(29, 29, 29);
+    border-radius: 15px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 2.9rem   ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    animation: heart 1s both infinite;
+
+
+    
+}
+
+
+@keyframes heart {
+    0%{
+        scale: 1;
+    }
+
+    50%{
+        scale: 1.05;
+    }
+
+    100%{
+        scale: 1;
+    }
+}
+
+
+.spanone{
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 136, 0); /* Adiciona uma borda preta ao texto */
+}
+
+
+.spantwo{
+    -webkit-text-stroke: 2px rgb(255, 136, 0); /* Adiciona uma borda preta ao texto */
+    color: rgb(255, 177, 33);
+    
+}
+
+
+.img{
+    width: 20%;
+}

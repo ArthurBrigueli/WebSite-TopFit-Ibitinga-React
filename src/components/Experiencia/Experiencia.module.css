@@ -1,0 +1,49 @@
+.container{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3em;
+    gap: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.spansecond{
+    color: rgb(255, 136, 0);
+}
+
+.container_divs{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.container_divs div{
+    background-color: white;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 25px -12px black;
+}
+
+
+.container_divs div img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
